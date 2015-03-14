@@ -62,7 +62,7 @@ class Nonsense
 
     /**
      * Generar un texto aleatorio.
-     * @param integer $as_array Si el valor es TRUE se obtiene un array de palabras en lugar de una cadena.
+     * @param boolean $as_array Si el valor es TRUE se obtiene un array de palabras en lugar de una cadena.
      * @return string|array
      */
     public function generate($as_array = false)
